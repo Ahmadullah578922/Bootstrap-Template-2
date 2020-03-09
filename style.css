@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+body{font-family: 'Lato';}
+
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: black !important;
+    font-weight: bold;
+}
+.nav-link{
+    font-size: 16px;
+    margin: 10px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+    color: blue !important;
+    
+}
+.active .nav-link{color: blue !important;}
+
+.site-content{
+    background-image: url(images/3.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.site-title, .site-desc{
+    color: white;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 2%;
+    font-size: 50px;
+}
+ .site-desc{
+    font-size: 25px;
+    padding-left:15%;
+}
+.site-btn1{
+    margin-left: 15%;
+    background-color:black;
+    color: white;
+}
+.site-btn2{
+    background-color:white;
+}
+
+.site-btn1, .site-btn2{
+    margin-top: 5%;
+    margin-bottom: 40%;
+
+}
+.site-btn3{
+    margin-top: 5%;   
+
+}
+/*section-1 */
+.section-1 .heading-2{
+    margin-top: 8%;
+    font-size: 40px;
+}
+.section-1 .heading-4{
+    margin-top: 8%;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+.section-1 .para-1{
+    margin-bottom: 5%;
+}
+.section-1 .card-text, .para-1{
+    color: rgba(0, 0, 0, 0.59)
+}
+
+.card{ width: 20rem;}
+
+
+/* Our Team */
+.section-2{
+    padding: 70px;
+}
+.our-team-text{
+    padding-bottom: 60px ;
+}
+
+.our-team-text h1{
+    font-weight: 600px;
+    font-size: 34px;
+}
+
+.our-team-box{
+    text-align:center;
+}
+.our-team-box img{
+    border: 10px solid #202020;
+}
+.icons i{
+    margin: 6px;
+    font-size: 20px;
+    border: 3px solid #fff;
+    padding: 5px;
+   border-radius: 3px;
+} 
+
+.icons{
+    background-color: #2fd3ae;
+    padding: 8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+    margin-top: -35px;
+}
+.icons a{
+    color: #fff;
+}
+.icons a:hover{
+    color: #202020;;
+}
+.our-team-box h4{
+    font-size: 20px;
+    margin-top: 16px;
+}
+/*Contact*/
+.sitee-content{
+    background-image: url(images/3.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 412px;
+}
+.sitee-title{
+    margin-top: 30%;
+    margin-bottom: 2%;
+    font-size: 80px;
+    color: white;
+    font-family: 'Righteous';
+}
+
+.card-header{font-family: Tahoma;font-weight: bold;}
+.mybody{
+    border: 1px solid black;
+}
+
+/*footer */
+footer{ background-color: #020031;}
+.footer-heading{
+    color:white;
+    font-size: 25px;
+    padding-top: 50px;
+    
+}
+.social i{
+    color: #B7B7B7;
+    font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .section-1 .card{
+        width:14rem;
+    }
+
+}
+@media screen and (max-width: 320px){
+    .site-content .site-title .site-desc{
+        font-size: 25px;
+        padding-left: 15%;
+    }
+    .site-content .site-btn2{
+            display:none;
+    }
+    .site-content .site-btn1{
+        margin-left: 25%;
+    }
+    .section-1 .heading-2{
+        font-size: 25px;
+    }
+    .section-1 .col-md-4{
+        padding: 5%;
+        margin-left: 8%;
+    }
+    .section-1 .card{
+        width: 15rem;
+    }
+    footer input[type="button"]{
+        margin-top: 5%;
+    }
+}
